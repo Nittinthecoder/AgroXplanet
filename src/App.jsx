@@ -1,15 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react'
 
-function App() {
-  const [count, setCount] = useState(0)
+import Header from './Components/Header/Header'
 
+const App = () => {
   return (
     <>
-      <div>
-        <h1 className='text-slate-400'> HI </h1>
+      <div className="main-container">
+        <Header />
       </div>
     </>
   )
